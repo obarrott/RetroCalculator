@@ -17,8 +17,6 @@
 		A6B40FA1253502A400F8AA8F /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B40FA0253502A400F8AA8F /* CalculationViewController.swift */; };
 		A6B40FA5253502E200F8AA8F /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B40FA4253502E200F8AA8F /* CalculatorButton.swift */; };
 		A6B40FA725350AA800F8AA8F /* Greenscr.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6B40FA625350AA800F8AA8F /* Greenscr.ttf */; };
-		A6B40FAF25350EF900F8AA8F /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B40FAE25350EF900F8AA8F /* CalculationController.swift */; };
-		A6B40FB12535196500F8AA8F /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B40FB02535196500F8AA8F /* Calculator.swift */; };
 		A6B40FB4253548C100F8AA8F /* CalculatorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B40FB3253548C100F8AA8F /* CalculatorLabel.swift */; };
 		A6B40FB625354CD000F8AA8F /* ExtensionDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B40FB525354CD000F8AA8F /* ExtensionDouble.swift */; };
 /* End PBXBuildFile section */
@@ -36,8 +34,6 @@
 		A6B40FA0253502A400F8AA8F /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		A6B40FA4253502E200F8AA8F /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 		A6B40FA625350AA800F8AA8F /* Greenscr.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Greenscr.ttf; sourceTree = "<group>"; };
-		A6B40FAE25350EF900F8AA8F /* CalculationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationController.swift; sourceTree = "<group>"; };
-		A6B40FB02535196500F8AA8F /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		A6B40FB3253548C100F8AA8F /* CalculatorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLabel.swift; sourceTree = "<group>"; };
 		A6B40FB525354CD000F8AA8F /* ExtensionDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDouble.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +68,6 @@
 		A6B40F812534FB7200F8AA8F /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				A6B40FA825350E7800F8AA8F /* Model */,
 				A6B40FA2253502B500F8AA8F /* Views */,
 				A6B40F9F2535029100F8AA8F /* Controllers */,
 				A6B40F9A2535015900F8AA8F /* HelpersAndExtensions */,
@@ -116,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				A6B40FAA25350EB500F8AA8F /* View Controller */,
-				A6B40FA925350EAC00F8AA8F /* Model Controller */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -137,22 +131,6 @@
 				A6B40FA4253502E200F8AA8F /* CalculatorButton.swift */,
 			);
 			path = "Custom Buttons";
-			sourceTree = "<group>";
-		};
-		A6B40FA825350E7800F8AA8F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A6B40FB02535196500F8AA8F /* Calculator.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		A6B40FA925350EAC00F8AA8F /* Model Controller */ = {
-			isa = PBXGroup;
-			children = (
-				A6B40FAE25350EF900F8AA8F /* CalculationController.swift */,
-			);
-			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 		A6B40FAA25350EB500F8AA8F /* View Controller */ = {
@@ -245,9 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6B40FA1253502A400F8AA8F /* CalculationViewController.swift in Sources */,
-				A6B40FAF25350EF900F8AA8F /* CalculationController.swift in Sources */,
 				A6B40FB4253548C100F8AA8F /* CalculatorLabel.swift in Sources */,
-				A6B40FB12535196500F8AA8F /* Calculator.swift in Sources */,
 				A6B40F832534FB7200F8AA8F /* AppDelegate.swift in Sources */,
 				A6B40F9C2535016D00F8AA8F /* StyleGuide.swift in Sources */,
 				A6B40FB625354CD000F8AA8F /* ExtensionDouble.swift in Sources */,
